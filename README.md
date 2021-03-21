@@ -12,7 +12,7 @@ Andra Lobo
 We sourced the “HR Analytics: Job Change of Data Scientist” from the website kaggle. This data set was originally sourced by a company who is active in Big Data and Data Science. This particular company offers courses and training internally to enhance their current employees skill sets. The company has collected data from all employees who participated in the training program and noticed some employees tend to seek new employment opportunities after completion. 
 <a href=”HR Analytics: Job Change of Data Scientists | Kaggle”>HR Analytics: Job Change of Data Scientists | Kaggle</a>
 
-## Reasons why we selected this topic 
+## Reasons Why we selected this topic 
 
 -  Onboarding new employees is an expensive process, we need to increase employee retention to ultimately save money and keep talent. 
 This analysis will provide employers with the tools they need to predict whether a future employee will stay with the company or use their training and seek other employment opportunities. Onboarding is an expensive process for any company especially when additional Data training programs are offered. This analysis will limit the possibility of hiring a short-term employee. (this is why we may have to create “bins” for the years employed /so we can define “short-term”)
@@ -36,10 +36,10 @@ The dataset provides information such as demographics, education and experience.
 We used the csv file provided on the Kaggle website 
 
 Data Description: 
-<img src="https://github.com/bheitshu/Final-Project/blob/main/images/DataSource_Description.png?raw=true">
+https://github.com/bheitshu/Final-Project/blob/main/images/DataSource_Description.png?raw=true
 
 Sample Data:
-<img src="https://github.com/bheitshu/Final-Project/blob/main/images/Starter_Data.png?raw=true">
+https://github.com/bheitshu/Final-Project/blob/main/images/Starter_Data.png?raw=true
 
 ### The following steps were completed:
 -  We removed the following columns:
@@ -49,9 +49,8 @@ Sample Data:
 -  We created and imported the cleaned_data.csv in a  PostgreSQL database
 
 ### ERD diagram: 
-<img src="https://github.com/bheitshu/Final-Project/blob/main/images/ERD.png?raw=true">
+https://github.com/bheitshu/Final-Project/blob/main/images/ERD.png?raw=true
 
-< a href="https://github.com/bheitshu/Final-Project/blob/main/images/SQL.sql?raw=true" target=”_blank”>Click here to view sql</a>
-
+https://github.com/bheitshu/Final-Project/blob/main/images/SQL.sql?raw=true
 
 ## Machine Learning Model

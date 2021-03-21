@@ -37,7 +37,7 @@ The dataset provides information such as demographics, education and experience.
 We used the csv file provided on the Kaggle website 
 
 Data Description: 
-<img src="https://github.com/bheitshu/Final-Project/blob/main/images/DataSource_Description.png?raw=true">
+![DataSource_Description](https://user-images.githubusercontent.com/72036895/111922841-e26a2500-8a61-11eb-8eb4-7bfcd19b3786.png)
 
 Sample Data:
 <img src="https://github.com/bheitshu/Final-Project/blob/main/images/Starter_Data.png?raw=true">

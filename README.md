@@ -3,8 +3,8 @@ HR Analytics: Job Change of Data Scientists
 
 
 ### Group Members:
-Brooke Heitshu
-Xikang Zhang
+Brooke Heitshu,
+Xikang Zhang,
 Andra Lobo
 
 ## Topic Selected

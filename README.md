@@ -36,10 +36,11 @@ The dataset provides information such as demographics, education and experience.
 We used the csv file provided on the Kaggle website 
 
 Data Description: 
-https://github.com/bheitshu/Final-Project/blob/main/images/DataSource_Description.png?raw=true
+<img src="https://github.com/bheitshu/Final-Project/blob/main/images/DataSource_Description.png?raw=true">
 
 Sample Data:
-https://github.com/bheitshu/Final-Project/blob/main/images/Starter_Data.png?raw=true
+<img src="https://github.com/bheitshu/Final-Project/blob/main/images/Starter_Data.png?raw=true">
+
 
 ### The following steps were completed:
 -  We removed the following columns:
@@ -49,8 +50,9 @@ https://github.com/bheitshu/Final-Project/blob/main/images/Starter_Data.png?raw=
 -  We created and imported the cleaned_data.csv in a  PostgreSQL database
 
 ### ERD diagram: 
-https://github.com/bheitshu/Final-Project/blob/main/images/ERD.png?raw=true
+<img src="https://github.com/bheitshu/Final-Project/blob/main/images/ERD.png?raw=true">
 
-https://github.com/bheitshu/Final-Project/blob/main/images/SQL.sql?raw=true
+< a href="https://github.com/bheitshu/Final-Project/blob/main/images/SQL.sql?raw=true" target=”_blank”>Click here to view sql</a>
+
 
 ## Machine Learning Model

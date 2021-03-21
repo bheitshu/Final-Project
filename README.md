@@ -50,6 +50,10 @@ Sample Data:
 -  We converted the categorical values to numerical values
 -  We created and imported the cleaned_data.csv in a  PostgreSQL database
 
+### GitHub Flow
+
+[Main.pdf](https://github.com/bheitshu/Final-Project/files/6177928/Main.pdf)
+
 ### ERD diagram: 
 <img src="https://github.com/bheitshu/Final-Project/blob/main/images/ERD.png?raw=true">
 

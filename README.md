@@ -52,7 +52,8 @@ Sample Data:
 
 ### GitHub Flow
 
-[Main.pdf](https://github.com/bheitshu/Final-Project/files/6177928/Main.pdf)
+<img width="827" alt="Screen Shot 2021-03-21 at 10 58 00 AM" src="https://user-images.githubusercontent.com/72036895/111913571-64dbf000-8a34-11eb-8cf8-e6ec72f6d1fe.png">
+
 
 ### ERD diagram: 
 <img src="https://github.com/bheitshu/Final-Project/blob/main/images/ERD.png?raw=true">

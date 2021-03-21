@@ -40,7 +40,7 @@ Data Description:
 ![DataSource_Description](https://user-images.githubusercontent.com/72036895/111922841-e26a2500-8a61-11eb-8eb4-7bfcd19b3786.png)
 
 Sample Data:
-<img src="https://github.com/bheitshu/Final-Project/blob/main/images/Starter_Data.png?raw=true">
+![Starter_Data](https://user-images.githubusercontent.com/72036895/111922896-29581a80-8a62-11eb-919b-afad1f9cbc25.png)
 
 
 ### The following steps were completed:

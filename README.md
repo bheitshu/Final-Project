@@ -37,9 +37,11 @@ The dataset provides information such as demographics, education and experience.
 We used the csv file provided on the Kaggle website 
 
 Data Description: 
+
 ![DataSource_Description](https://user-images.githubusercontent.com/72036895/111922841-e26a2500-8a61-11eb-8eb4-7bfcd19b3786.png)
 
 Sample Data:
+
 ![Starter_Data](https://user-images.githubusercontent.com/72036895/111922896-29581a80-8a62-11eb-919b-afad1f9cbc25.png)
 
 
@@ -60,4 +62,4 @@ Sample Data:
 ![ERD](https://user-images.githubusercontent.com/72036895/111922933-573d5f00-8a62-11eb-8c99-598ab4ddfbfe.png)
 
 ## Machine Learning Model
->>>>>>> d0a995848624f4091bad66e8a440ac6a1fcd256f
+We used the Deep Learning and Random Forest Model. 

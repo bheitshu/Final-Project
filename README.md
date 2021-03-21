@@ -56,10 +56,8 @@ Sample Data:
 
 
 ### ERD diagram: 
-<img src="https://github.com/bheitshu/Final-Project/blob/main/images/ERD.png?raw=true">
 
-< a href="https://github.com/bheitshu/Final-Project/blob/main/images/SQL.sql?raw=true" target=”_blank”>Click here to view sql</a>
-
+![ERD](https://user-images.githubusercontent.com/72036895/111922933-573d5f00-8a62-11eb-8c99-598ab4ddfbfe.png)
 
 ## Machine Learning Model
 >>>>>>> d0a995848624f4091bad66e8a440ac6a1fcd256f

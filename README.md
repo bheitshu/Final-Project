@@ -63,3 +63,4 @@ Sample Data:
 
 ## Machine Learning Model
 We used the Deep Learning and Random Forest Model. 
+![rf1](https://github.com/bheitshu/Final-Project/blob/machine_learning_feature/images/rf1.PNG)

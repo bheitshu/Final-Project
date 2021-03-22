@@ -62,9 +62,16 @@ Sample Data:
 ![ERD](https://user-images.githubusercontent.com/72036895/111922933-573d5f00-8a62-11eb-8c99-598ab4ddfbfe.png)
 
 ## Machine Learning Model
-We used the Deep Learning and Random Forest Model. 
-![rf1](https://github.com/bheitshu/Final-Project/blob/machine_learning_feature/images/rf1.PNG)
+We have chosen the Random Forest classifier and deep learning models for this project. 
+* Random Forest Classifier
 
-|Original District Summary                         | New District Summary                                    |
-|:----------:                                      |                                :-----------------------:|
-|![](Resources/1.PNG)                              |![](Resources/2.PNG)                                     |
+![rf1](https://github.com/bheitshu/Final-Project/blob/machine_learning_feature/images/rf1.PNG)
+![rf2](https://github.com/bheitshu/Final-Project/blob/machine_learning_feature/images/rf2.PNG)
+
+A random forest is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.In addtion, it is very easy to measure the relative importance of each feature on the prediciton.As shown above, the most important feature is the city development index which is the crucial reason whether the employee would leave or not. We have got the accuracy score as high as 85% after feeding training data to our Random Forest classifier.
+
+* Deep Learning Model
+
+![deep_learning_model](https://github.com/bheitshu/Final-Project/blob/machine_learning_feature/images/deep_learning_model.PNG)
+
+We have also tried the deep learning model with 

@@ -47,7 +47,7 @@ Sample Data:
 
 ### The following steps were completed:
 -  We removed the following columns:
-   - City 
+   - City, Enrollee ID
 -  We removed all rows with null values
 -  We converted the categorical values to numerical values
 -  We created and imported the cleaned_data.csv in a  PostgreSQL database
@@ -64,9 +64,7 @@ Sample Data:
 ## Machine Learning Model
 We have chosen the Random Forest classifier and deep learning models for this project. 
 * Random Forest Classifier
-
-![rf1](https://github.com/bheitshu/Final-Project/blob/machine_learning_feature/images/rf1.PNG)
-![rf2](https://github.com/bheitshu/Final-Project/blob/machine_learning_feature/images/rf2.PNG)
+<img width="496" alt="Screen Shot 2021-04-01 at 7 24 03 PM" src="https://user-images.githubusercontent.com/72036895/113522324-87f6bb80-956d-11eb-968f-05187347c534.png">
 
 A random forest is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.In addtion, it is very easy to measure the relative importance of each feature on the prediciton.As shown above, the most important feature is the city development index which is the crucial reason whether the employee would leave or not. We have got the accuracy score as high as 85% after feeding training data to our Random Forest classifier.
 
@@ -76,3 +74,43 @@ A random forest is a meta estimator that fits a number of decision tree classifi
 
 We have also tried the deep learning model with 80 neurons and 30 neurons in the first layer and second layer respectively with the activation function of Rectified Linear Unit. As for the output layer, the actication function is sigmoid. After compiling and fitting the training dataset to the model, we have achieved the accuracy scores as 82.5%.
 
+## Dashboard
+
+### What is the likelihood of an employee staying once they complete their training?
+### How long will they stay for? 
+Interactive feature to allow the employer  to enter in an employees information and predict the likelihood of an employee staying and how long they will stay for
+
+### What are the demographics of loyal employees?
+Show what factors makeup and employee that will stay
+
+Show Exploratory Data
+
+Company info:
+Company sizes
+Company type
+
+Personal info:
+Gender
+Relevant experience
+Enrolled in university
+Education level
+Major discipline
+Experience
+Last new job
+Training hours
+target
+
+### Is hiring a less qualified employee (based on education level and experience) more likely to stay than a higher education with 10+ years experience after training?
+
+
+### Below are wireframes for our Dashboard
+
+<img width="616" alt="Screen Shot 2021-04-04 at 5 39 03 PM" src="https://user-images.githubusercontent.com/72036895/113522240-f0916880-956c-11eb-859b-b785635db65e.png">
+
+<img width="635" alt="Screen Shot 2021-04-04 at 5 39 16 PM" src="https://user-images.githubusercontent.com/72036895/113522263-13238180-956d-11eb-90b0-cb3646312d2e.png">
+
+<img width="635" alt="Screen Shot 2021-04-04 at 5 39 16 PM" src="https://user-images.githubusercontent.com/72036895/113522222-d9eb1180-956c-11eb-9354-bc324598997f.png">
+
+<img width="613" alt="Screen Shot 2021-04-04 at 5 39 09 PM" src="https://user-images.githubusercontent.com/72036895/113522232-e5d6d380-956c-11eb-95cb-7c330a909a05.png">
+
+<img width="620" alt="Screen Shot 2021-04-04 at 5 39 22 PM" src="https://user-images.githubusercontent.com/72036895/113522249-0141de80-956d-11eb-824e-d3c166b09fa0.png">

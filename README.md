@@ -11,7 +11,7 @@ Xikang Zhang
 ## Topic Selected
 
 We sourced the “HR Analytics: Job Change of Data Scientist” from the website kaggle. This data set was originally sourced by a company who is active in Big Data and Data Science. This particular company offers courses and training internally to enhance their current employees skill sets. The company has collected data from all employees who participated in the training program and noticed some employees tend to seek new employment opportunities after completion. 
-<a href=”https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists”>HR Analytics: Job Change of Data Scientists | Kaggle</a>
+<a href="https://www.kaggle.com/arashnic/hr-analytics-job-change-of-data-scientists">HR Analytics: Job Change of Data Scientists | Kaggle</a>
 
 ## Reasons why we selected this topic 
 

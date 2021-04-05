@@ -59,9 +59,14 @@ Sample Data:
 
 ### ERD diagram: 
 
-![ERD](https://user-images.githubusercontent.com/72036895/111922933-573d5f00-8a62-11eb-8c99-598ab4ddfbfe.png)
+<img src="https://github.com/bheitshu/Final-Project/blob/main/images/ERD_2.png?raw=true" >
+
+### SQL Joining tables:
+
+<img src="https://github.com/bheitshu/Final-Project/blob/main/images/sql_join.png?raw=true" >
 
 ## Machine Learning Model
+
 We have chosen the Random Forest classifier and deep learning models for this project. 
 * Random Forest Classifier
 <img width="496" alt="Screen Shot 2021-04-01 at 7 24 03 PM" src="https://user-images.githubusercontent.com/72036895/113522324-87f6bb80-956d-11eb-968f-05187347c534.png">
@@ -83,7 +88,7 @@ Interactive feature to allow the employer  to enter in an employees information 
 ### What are the demographics of loyal employees?
 Show what factors makeup and employee that will stay
 
-Show Exploratory Data
+<b>Show Exploratory Data</b>
 
 Company info:
 Company sizes
@@ -103,14 +108,6 @@ target
 ### Is hiring a less qualified employee (based on education level and experience) more likely to stay than a higher education with 10+ years experience after training?
 
 
-### Below are wireframes for our Dashboard
+### Below is the wireframe for our Dashboard
 
-<img width="616" alt="Screen Shot 2021-04-04 at 5 39 03 PM" src="https://user-images.githubusercontent.com/72036895/113522240-f0916880-956c-11eb-859b-b785635db65e.png">
-
-<img width="635" alt="Screen Shot 2021-04-04 at 5 39 16 PM" src="https://user-images.githubusercontent.com/72036895/113522263-13238180-956d-11eb-90b0-cb3646312d2e.png">
-
-<img width="635" alt="Screen Shot 2021-04-04 at 5 39 16 PM" src="https://user-images.githubusercontent.com/72036895/113522222-d9eb1180-956c-11eb-9354-bc324598997f.png">
-
-<img width="613" alt="Screen Shot 2021-04-04 at 5 39 09 PM" src="https://user-images.githubusercontent.com/72036895/113522232-e5d6d380-956c-11eb-95cb-7c330a909a05.png">
-
-<img width="620" alt="Screen Shot 2021-04-04 at 5 39 22 PM" src="https://user-images.githubusercontent.com/72036895/113522249-0141de80-956d-11eb-824e-d3c166b09fa0.png">
+<img src="https://github.com/bheitshu/Final-Project/blob/main/images/dashboard.png?raw=true" >

@@ -31,11 +31,6 @@ Understanding which factors lead to employees staying at the company is crucial 
 -  What are the demographics of loyal employees?
 -  Is hiring a less qualified employee (based on education level and experience) more likely to stay than a higher education with 10+ years experience after training?
 
-##Presentation
-
-Click here to view our Google Slides presentation:
-<a href="https://github.com/bheitshu/Final-Project/blob/main/images/April%201st%20Presentation%20-%20Group%202.pdf" target="_blank">https://github.com/bheitshu/Final-Project/blob/main/images/April%201st%20Presentation%20-%20Group%202.pdf</a>
-
 
 ## Description of the source of data 
 
@@ -87,6 +82,8 @@ We have also tried the deep learning model with 80 neurons and 30 neurons in the
 
 ## Dashboard
 
+We will use Tableau to create our dashboard.  We will import our cleaned data as well as our training data to be able to display the answers to the following questions:
+
 ### What is the likelihood of an employee staying once they complete their training?
 ### How long will they stay for? 
 Interactive feature to allow the employer  to enter in an employees information and predict the likelihood of an employee staying and how long they will stay for
@@ -117,3 +114,9 @@ Personal info:
 ### Below is the wireframe for our Dashboard:
 
 <img src="https://github.com/bheitshu/Final-Project/blob/main/images/dashboard.png?raw=true" >
+
+
+##Presentation
+
+Click here to view our Google Slides presentation:
+<a href="https://github.com/bheitshu/Final-Project/blob/main/images/April%201st%20Presentation%20-%20Group%202.pdf" target="_blank">https://github.com/bheitshu/Final-Project/blob/main/images/April%201st%20Presentation%20-%20Group%202.pdf</a>

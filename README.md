@@ -31,6 +31,12 @@ Understanding which factors lead to employees staying at the company is crucial 
 -  What are the demographics of loyal employees?
 -  Is hiring a less qualified employee (based on education level and experience) more likely to stay than a higher education with 10+ years experience after training?
 
+##Presentation
+
+Click here to view our Google Slides presentation:
+<a href="https://github.com/bheitshu/Final-Project/blob/main/images/April%201st%20Presentation%20-%20Group%202.pdf" target="_blank">https://github.com/bheitshu/Final-Project/blob/main/images/April%201st%20Presentation%20-%20Group%202.pdf</a>
+
+
 ## Description of the source of data 
 
 The dataset provides information such as demographics, education and experience. From here we are able to deep dive and understand what factors led an employee to stay with the company or seek employment elsewhere.
@@ -91,23 +97,23 @@ Show what factors makeup and employee that will stay
 <b>Show Exploratory Data</b>
 
 Company info:
-Company sizes
-Company type
+-  Company sizes
+-  Company type
 
 Personal info:
-Gender
-Relevant experience
-Enrolled in university
-Education level
-Major discipline
-Experience
-Last new job
-Training hours
-target
+-  Gender
+-  Relevant experience
+-  Enrolled in university
+-  Education level
+-  Major discipline
+-  Experience
+-  Last new job
+-  Training hours
+-  target
 
 ### Is hiring a less qualified employee (based on education level and experience) more likely to stay than a higher education with 10+ years experience after training?
 
 
-### Below is the wireframe for our Dashboard
+### Below is the wireframe for our Dashboard:
 
 <img src="https://github.com/bheitshu/Final-Project/blob/main/images/dashboard.png?raw=true" >

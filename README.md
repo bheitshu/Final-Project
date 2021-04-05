@@ -116,7 +116,7 @@ Personal info:
 <img src="https://github.com/bheitshu/Final-Project/blob/main/images/dashboard.png?raw=true" >
 
 
-##Presentation
+## Presentation
 
 Click here to view our Google Slides presentation:
 <a href="https://github.com/bheitshu/Final-Project/blob/main/images/April%201st%20Presentation%20-%20Group%202.pdf" target="_blank">https://github.com/bheitshu/Final-Project/blob/main/images/April%201st%20Presentation%20-%20Group%202.pdf</a>

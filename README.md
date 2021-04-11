@@ -80,6 +80,14 @@ A random forest is a meta estimator that fits a number of decision tree classifi
 
 We have also tried the deep learning model with 80 neurons and 30 neurons in the first layer and second layer respectively with the activation function of Rectified Linear Unit. As for the output layer, the actication function is sigmoid. After compiling and fitting the training dataset to the model, we have achieved the accuracy scores as 82.5%.
 
+## Data Features
+<img src="https://github.com/bheitshu/Final-Project/blob/machine_learning_feature/images/cdi.PNG" >
+We could tell that CDI(City Development Index)has a significant impact on whether people would leave or stay. With 0.9 CDI, people are more likely to stay in current work. On the other side, people want to find another job if the CDI is relative small.
+<img src="https://github.com/bheitshu/Final-Project/blob/machine_learning_feature/images/yearsofexp.PNG" >
+There is a significant amount of people are looking for another jobs if they have worked for about 5 years. The people who has more than 15 years of working experience are less likely to leave the current work.
+<img src="https://github.com/bheitshu/Final-Project/blob/machine_learning_feature/images/yearsfromlastjob.PNG" >
+There are about two times of people are willing to stay at the current work if they have already worked in the current work position for 5 years.
+
 ## Dashboard
 
 We will use Tableau to create our dashboard.  We will import our cleaned data as well as our training data to be able to display the answers to the following questions:

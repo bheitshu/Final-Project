@@ -91,7 +91,7 @@ There are about two times of people are willing to stay at the current work if t
 
 ## Dashboard:
 
-<a href=https://public.tableau.com/profile/andra8280#!/vizhome/Group2_Final/Final “ Target=”_blank”> https://public.tableau.com/profile/andra8280#!/vizhome/Group2_Final/Final</a>
+<a href="https://public.tableau.com/profile/andra8280#!/vizhome/Group2_Final/Final" Target="_blank"> https://public.tableau.com/profile/andra8280#!/vizhome/Group2_Final/Final</a>
 
 We chose to use Tableau to create our dashboard.
 

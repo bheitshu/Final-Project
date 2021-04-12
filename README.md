@@ -123,38 +123,35 @@ https://github.com/bheitshu/Final-Project/blob/51f6ae51542321df67131063376f6d1d2
 ### Brooke Heitshu
 Slide 4 -
 
-•Using these 12 key features- ordered in most important to least important factors in employment relocation. We can tell your STEM HR department if Data Scientists are going to stay or leave the company after completing compensating training.
-• This helps to reduce the cost and time as well as the quality of training or planning the courses and categorization of candidates. 
-• Information related to demographics, education, experience are in hands from candidates signup and enrollment.
+-  Using these 12 key features- ordered in most important to least important factors in employment relocation. We can tell your STEM HR department if Data Scientists are going to stay or leave the company after completing compensating training.
+-  This helps to reduce the cost and time as well as the quality of training or planning the courses and categorization of candidates. 
+-  Information related to demographics, education, experience are in hands from candidates signup and enrollment.
 
 Slide 5 -
-• We will be able to tell your company if the likelihood of an employee staying once the compensating training is completed
-• What are key features that retain employees
-• Is hiring a less qualified employee more likely to stay after compensated training?
+-  We will be able to tell your company if the likelihood of an employee staying once the compensating training is completed
+-  What are key features that retain employees
+-  Is hiring a less qualified employee more likely to stay after compensated training?
 
 Slide 6 -
-• Data Preprocessing, Data Analyzing, DataBase, Dashboard
-• Data Cleaning, Machine Learning 
+-  Data Preprocessing, Data Analyzing, DataBase, Dashboard
+-  Data Cleaning, Machine Learning 
 
 ### Andra Lobo
 
 Slide 8-
-• We preprocessed the data by cleaning it in Python and eliminating the enrollee ID column & City ID.
-• We removed all rows with null values
-• We converted the categorical values to numerical values
-• We created and imported the cleaned_data.csv in a  PostgreSQL database
+-  We preprocessed the data by cleaning it in Python and eliminating the enrollee ID column & City ID.
+-  We removed all rows with null values
+-  We converted the categorical values to numerical values
+-  We created and imported the cleaned_data.csv in a  PostgreSQL database
 
 ### Xikang Zhang
 
 Slide 10-
 
-• For the Alogrithm we chose a random forest classifier as a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
-• In addtion, it is very easy to measure the relative importance of each feature on the prediciton. 
-• As shown on slide 4, the most important feature is the city development index which is the crucial reason whether the employee would leave or not. We have got the accuracy score as high as 87% after feeding training data to our Random Forest classifier.
-• The limitations to our Classifer
+-  For the Alogrithm we chose a random forest classifier as a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
+-  In addtion, it is very easy to measure the relative importance of each feature on the prediciton. 
+-  As shown on slide 4, the most important feature is the city development index which is the crucial reason whether the employee would leave or not. We have got the accuracy score as high as 87% after feeding training data to our Random Forest classifier.
+-  The limitations to our Classifer
 
 Slide 11-
-• Results are 87.1% accuracy 
-
-
-
+-  Results are 87.1% accuracy 

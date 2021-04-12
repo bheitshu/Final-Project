@@ -72,7 +72,7 @@ We have chosen the Random Forest classifier and deep learning models for this pr
 * Random Forest Classifier
 <img width="496" alt="Screen Shot 2021-04-01 at 7 24 03 PM" src="https://user-images.githubusercontent.com/72036895/113522324-87f6bb80-956d-11eb-968f-05187347c534.png">
 
-A random forest is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.In addtion, it is very easy to measure the relative importance of each feature on the prediciton.As shown above, the most important feature is the city development index which is the crucial reason whether the employee would leave or not. We have got the accuracy score as high as 85% after feeding training data to our Random Forest classifier.
+A random forest is a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.In addtion, it is very easy to measure the relative importance of each feature on the prediciton.As shown above, the most important feature is the city development index which is the crucial reason whether the employee would leave or not. We have got the accuracy score as high as 87% after feeding training data to our Random Forest classifier.
 
 * Deep Learning Model
 
@@ -148,7 +148,13 @@ Slide 8-
 
 Slide 10-
 
+• For the Alogrithm we chose a random forest classifier as a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
+• In addtion, it is very easy to measure the relative importance of each feature on the prediciton. 
+• As shown on slide 4, the most important feature is the city development index which is the crucial reason whether the employee would leave or not. We have got the accuracy score as high as 87% after feeding training data to our Random Forest classifier.
+• The limitations to our Classifer
 
+Slide 11-
+• Results are 87.1% accuracy 
 
 
 

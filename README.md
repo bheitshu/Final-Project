@@ -88,40 +88,29 @@ There is a significant amount of people are looking for another jobs if they hav
 <img src="https://github.com/bheitshu/Final-Project/blob/machine_learning_feature/images/yearsfromlastjob.PNG" >
 There are about two times of people are willing to stay at the current work if they have already worked in the current work position for 5 years.
 
-## Dashboard
 
-We will use Tableau to create our dashboard.  We will import our cleaned data as well as our training data to be able to display the answers to the following questions:
+## Dashboard:
 
-### What is the likelihood of an employee staying once they complete their training?
-### How long will they stay for? 
-Interactive feature to allow the employer  to enter in an employees information and predict the likelihood of an employee staying and how long they will stay for
+<a href=https://public.tableau.com/profile/andra8280#!/vizhome/Group2_Final/Final “ Target=”_blank”> https://public.tableau.com/profile/andra8280#!/vizhome/Group2_Final/Final</a>
 
-### What are the demographics of loyal employees?
-Show what factors makeup and employee that will stay
+We chose to use Tableau to create our dashboard.
 
-<b>Show Exploratory Data</b>
+We imported our cleaned data as well as the converted data used for our machine learning models.
 
-Company info:
--  Company sizes
--  Company type
+The first diagram shows the importance of each of the categories from our data.  
 
-Personal info:
--  Gender
--  Relevant experience
--  Enrolled in university
--  Education level
--  Major discipline
--  Experience
--  Last new job
--  Training hours
--  target
+City development index is the highest importance followed by # of Training hours and years of experience.
 
-### Is hiring a less qualified employee (based on education level and experience) more likely to stay than a higher education with 10+ years experience after training?
+The graphs below show the distribution of whether employees have stayed or not stayed by the following:
 
+•	Gender
+•	Enrolled in University
+•	Education Level
+•	Company Size
+•	Company Type
+•	City Index 
 
-### Below is the wireframe for our Dashboard:
-
-<img src="https://github.com/bheitshu/Final-Project/blob/main/images/dashboard.png?raw=true" >
+The filter above the graphs can be used to show the # stayed, not stayed or both.
 
 
 ## Presentation

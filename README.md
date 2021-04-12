@@ -103,12 +103,12 @@ City development index is the highest importance followed by # of Training hours
 
 The graphs below show the distribution of whether employees have stayed or not stayed by the following:
 
-•	Gender
-•	Enrolled in University
-•	Education Level
-•	Company Size
-•	Company Type
-•	City Index 
+-  Gender
+-  Enrolled in University
+-  Education Level
+-  Company Size
+-  Company Type
+-  City Index 
 
 The filter above the graphs can be used to show the # stayed, not stayed or both.
 

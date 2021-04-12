@@ -136,6 +136,19 @@ Slide 6 -
 • Data Preprocessing, Data Analyzing, DataBase, Dashboard
 • Data Cleaning, Machine Learning 
 
+### Andra Lobo
+
+Slide 8-
+• We preprocessed the data by cleaning it in Python and eliminating the enrollee ID column & City ID.
+• We removed all rows with null values
+• We converted the categorical values to numerical values
+• We created and imported the cleaned_data.csv in a  PostgreSQL database
+
+### Xikang Zhang
+
+Slide 10-
+
+
 
 
 

@@ -116,4 +116,4 @@ The filter above the graphs can be used to show the # stayed, not stayed or both
 ## Presentation
 
 Click here to view our Google Slides presentation:
-images/Final Presentation - Group 2.pdf
+https://github.com/bheitshu/Final-Project/blob/51f6ae51542321df67131063376f6d1d2f414a1e/images/Final%20Presentation%20-%20Group%202.pdf

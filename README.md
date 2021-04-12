@@ -117,3 +117,25 @@ The filter above the graphs can be used to show the # stayed, not stayed or both
 
 Click here to view our Google Slides presentation:
 https://github.com/bheitshu/Final-Project/blob/51f6ae51542321df67131063376f6d1d2f414a1e/images/Final%20Presentation%20-%20Group%202.pdf
+
+### Speaking Notes
+
+### Brooke Heitshu
+Slide 4 -
+
+•Using these 12 key features- ordered in most important to least important factors in employment relocation. We can tell your STEM HR department if Data Scientists are going to stay or leave the company after completing compensating training.
+• This helps to reduce the cost and time as well as the quality of training or planning the courses and categorization of candidates. 
+• Information related to demographics, education, experience are in hands from candidates signup and enrollment.
+
+Slide 5 -
+• We will be able to tell your company if the likelihood of an employee staying once the compensating training is completed
+• What are key features that retain employees
+• Is hiring a less qualified employee more likely to stay after compensated training?
+
+Slide 6 -
+• Data Preprocessing, Data Analyzing, DataBase, Dashboard
+• Data Cleaning, Machine Learning 
+
+
+
+

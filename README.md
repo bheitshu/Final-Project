@@ -120,38 +120,110 @@ https://github.com/bheitshu/Final-Project/blob/51f6ae51542321df67131063376f6d1d2
 
 ### Speaking Notes
 
-### Brooke Heitshu
-Slide 4 -
+### Brooke
+Slide 1
+-Introduce topic
+Our group decide to work with an open source data set on Kaggle to analyze job changes within data scientist roles
+Slide 2
+Our group members include Andra, Myself Brooke, and Axel
+Slide 3
+-skip
+Slide 4
+These 12 key features within our data set- ordered in most important to least important factors in employment relocation. As you can see the number 1 factor is the city development index, 2nd is training hours and 3rd is company size. With this information we are able to indicate to a HR department if Data Scientists are going to stay or leave the company after completing compensating training offered by the company
+Information related to demographics , education and experience are available in this data set
+We discovered through our data set 83% of employees stay after training, but why do the other 17% leave?
+Knowing this information helps mitigate risk by reducing the costs of onboarding a new employee that won’t stay at the company
+Did you know on average it costs an employer $4500 to onboard a new employee in Canada. And that doesn’t even cover training costs
+And Only 70% of companies analyze employee data
+From our analysis we discovered “Mandy”. Mandy is a PhD living in New York City with 25 years of experience and is not currently enrolled in university. According to this dataset Mandy is the most ideal candidate for staying at a job.
+Slide 5
+Our objectives for the analysis are to be able to help HR departments in predicting
+the likelihood of an employee staying
+	-83%
+•What are key features that retain employees?
+-Again stated in slide 4-City development index, training hours and company size
+Is hiring a less qualified employee more likely to stay?
+No PhDs are the most likely to stay at the company
+Slide 6
+This is how we laid out our Github
+-Main, Developing & Feature branches
+-Data Preprocessing, Data Analyzing, DataBase, Dashboard
+-Data Cleaning, Machine Learning 
 
--  Using these 12 key features- ordered in most important to least important factors in employment relocation. We can tell your STEM HR department if Data Scientists are going to stay or leave the company after completing compensating training.
--  This helps to reduce the cost and time as well as the quality of training or planning the courses and categorization of candidates. 
--  Information related to demographics, education, experience are in hands from candidates signup and enrollment.
+*Now I will pass it off to Andra who will be explaining our Database*
 
-Slide 5 -
--  We will be able to tell your company if the likelihood of an employee staying once the compensating training is completed
--  What are key features that retain employees
--  Is hiring a less qualified employee more likely to stay after compensated training?
+### Andra
+Slides 7-8 – Data - Andra
+The Data source we used was pretty clean and not too big
+We started with 2 csv files
+·         Company Information
+o   company size 
+o   company type
+o   city development index
+·         Customer Information
+o   employee experience
+o   education level
+o   gender
+o   stayed or not stayed
+During our cleaning process we
+·         dropped 2 columns
+o   city – which was a code and not relevant for our analysis
+o   enrollee id – was also not needed
+·         removed rows with null values –
+o   19,158 down to 8,955 – 53% drop
+·         To prepare the data for our training model we converted all the categorical data to numerical values
+Once we are data was ready we imported the 2 csv files into 2 tables into a SQL Database and ran a query to join the 2 tables into 1 so it could be used for our machine learning model
 
-Slide 6 -
--  Data Preprocessing, Data Analyzing, DataBase, Dashboard
--  Data Cleaning, Machine Learning 
+*I am going to pass things off to Axle who is going to walk you through our Machine Learning model*
 
-### Andra Lobo
+### Xikang
+Slides 9-11 Xikang 
+We have decided to use Random Forest algorithm for our machine learning model
+Because random forest is an ensemble of decision trees, it takes inputs from all different decision trees and predicts the results. This ensures that individual errors of trees are minimized, and overall variance and errors is reduced. In addition, we can extract feature importance from the Random forest algorithm to let us have a better understanding how these features affect the result.
+Finally, we have got about 87% accuracy rate for the prediction of our machine learning model which is a remarkable achievement.
+Limitations:
+Random forest algorithm itself is kind of like a black box for a statistical modeler, we have limited control on what the model does. We could make optimization by trying different parameters and random seeds. It is also time consuming for real-time predictions due to the large number of trees in the algorithm.
 
-Slide 8-
--  We preprocessed the data by cleaning it in Python and eliminating the enrollee ID column & City ID.
--  We removed all rows with null values
--  We converted the categorical values to numerical values
--  We created and imported the cleaned_data.csv in a  PostgreSQL database
 
-### Xikang Zhang
+### Andra
+<a href=https://public.tableau.com/profile/andra8280#!/vizhome/Group2_Final/Final “ Target=”_blank”> https://public.tableau.com/profile/andra8280#!/vizhome/Group2_Final/Final</a>
+We created our dashboard in Tableau  and we will be walking you through each of the 3 sections.
+We imported 2 sets of data into Tableau
+1.       our cleaned data with duplicates removed
+2.       and converted data used for our machine learning model.
 
-Slide 10-
+Section 1 - Andra
+The first diagram shows the importance of each of the categories from our data. 
+If you click on the circles or the categories in the legend you can see the name & weigh
+City development index as the highest importance at .28 followed by # of Training hours .17 and years of experience at .15
+ 
+### Xikang
+Section 2 -
+ As we can see here, people would stay at the current position if the city development index is high, which is about 0.9. In addition, people who had worked for 5 years at the current position from previous job and had about 20 years working experience in the field would rather staying in the current position.
+Section 3 - Andra
+The graphs below show the distribution of job changing based off the categories from our data:
+The filter can be used to show the # stayed, not stayed or both.
+·         Stayed vs not stayed – 83% stayed
+·         Gender - 90% male
+·         Employees that are not Enrolled in University are more likely to stay
+·         Education Level – 90% of employees have a graduate degree
+·         Company Size – there was a good distribution across all sizes
+·         Company Type – there was not a good distribution across company types
+·         City Index – Majority of the scores are above 0.8
 
--  For the Alogrithm we chose a random forest classifier as a meta estimator that fits a number of decision tree classifiers on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
--  In addtion, it is very easy to measure the relative importance of each feature on the prediciton. 
--  As shown on slide 4, the most important feature is the city development index which is the crucial reason whether the employee would leave or not. We have got the accuracy score as high as 87% after feeding training data to our Random Forest classifier.
--  The limitations to our Classifer
+### Brooke
 
-Slide 11-
--  Results are 87.1% accuracy 
+And City Development Index is scored based on the development of the city including infrastructure, transportation , green spaces ext.
+
+While completing this project we ran into some limitations including =
+
+We would have liked to have had the city name to connect to the city id that was provided. 
+This would give employers a better representation of predictions based on their specific city.
+
+o We would have liked to have more data for people that were leaving as 83% of our dataset were employees that stayed and 17% left, if our dataset was more distributed we could give more accurate predictions for HR departments to hire
+
+Overall all these results lead back to Mandy. Again Mandy is a PhD living in New York City with 25 years of experience and is not currently enrolled in university.
+
+We hope you all find your Mandy
+ 
+
